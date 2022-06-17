@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  payloadcms:
+    build: ./payload-cms
+    depends_on:
+      - mongo
+    ports:
+      - 3000:3000
+    environment:
+      - MONGODB_URI=mongodb://admin:adminpass@mongo/testdb?authSource=admin
+      - PAYLOAD_SECRET=ThisIsALongComplexEncryptionKey
+    volumes:
+      - /app/node_modules
+      - ./payload-cms:/app
+
+  mongo:
+    image: mongo:5.0.9
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=testdb
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=adminpass
+    volumes:
+      - mongodb:/data/db
+
+volumes:
+  mongodb:
