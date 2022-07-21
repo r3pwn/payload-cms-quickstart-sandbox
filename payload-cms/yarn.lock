@@ -3514,9 +3514,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.188:
-  version "1.4.195"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.195.tgz#139b2d95a42a3f17df217589723a1deac71d1473"
-  integrity sha512-vefjEh0sk871xNmR5whJf9TEngX+KTKS3hOHpjoMpauKkwlGwtMz1H8IaIjAT/GNnX0TbGwAdmVoXCAzXf+PPg==
+  version "1.4.196"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.196.tgz#e18cdc5c1c2c2ebf78da237d0c374cc3b244d4cb"
+  integrity sha512-uxMa/Dt7PQsLBVXwH+t6JvpHJnrsYBaxWKi/J6HE+/nBtoHENhwBoNkgkm226/Kfxeg0z1eMQLBRPPKcDH8xWA==
 
 emittery@^0.7.1:
   version "0.7.2"
@@ -6031,9 +6031,9 @@ mongoose-paginate-v2@^1.6.1:
   integrity sha512-r9bns1sMWRl0QO3YXVZ/uGOL/CYcDXTmapGHlddIgzbfOhVxUWKHKItwJO8rZICF1ooOukLQv8qQLVTc3qSLpQ==
 
 mongoose@^6.2.0:
-  version "6.4.5"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.4.5.tgz#59b9c0d1ca09dd17957846e75374fde34309b2fc"
-  integrity sha512-2E56DnJ4z5pWnBH4/pFGWuDFRn1Wt/JxU31Hcu0ZZtsd8I6piHavLawC9ND6GgyBpHov/aVLPLXtzB+HPKeKQg==
+  version "6.4.6"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.4.6.tgz#57bc7ae68de56abcc5e890284f2d10acac863aa2"
+  integrity sha512-ZAfNCWgXhwev6k/+rMzjHIJ/+wLkundQU/i+aUTqmCgGoYqc+B5e4EC4Y3E1XaLzNXiWID1/vocSM6zs5IAGvA==
   dependencies:
     bson "^4.6.2"
     kareem "2.4.1"
@@ -6611,10 +6611,10 @@ pause@0.0.1:
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
-payload@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/payload/-/payload-1.0.7.tgz#2bcaec5f587bebd91c70233cf5f01988535522ef"
-  integrity sha512-hMFzFIeGnCT7P/NsPaOGd+vNlNWpUY4PKA1PcBWkX72Iv5O4aZq+4Dttk6RwXblN6KEiujnQg3haAASukK8w3w==
+payload@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/payload/-/payload-1.0.8.tgz#64e1b77e1d42a85c5eb6693043b3f44393b16e7d"
+  integrity sha512-1WdwPiT8Y5kjMHZy4bR0+TQNdrECKBNe79nRsv/lDxZnngonIEF5Wi1bz0hDX3exCluqFQM3bhUvw9nHNyBFeQ==
   dependencies:
     "@babel/cli" "^7.12.8"
     "@babel/core" "^7.11.6"
